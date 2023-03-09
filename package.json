@@ -2,15 +2,30 @@
   "name": "nft-marketplace",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "author": "Dwi Wahyu Santoso",
   "license": "ISC",
   "dependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
-    "@openzeppelin/contracts": "^4.8.2",
-    "hardhat": "^2.13.0"
+    "@openzeppelin/contracts": "^4.7.3",
+    "axios": "^0.27.2",
+    "ether": "^0.0.9",
+    "framer-motion": "^7.2.1",
+    "ipfs-http-client": "^58.0.0",
+    "next": "12.2.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-dropzone": "^14.2.2",
+    "react-icons": "^4.4.0",
+    "web3modal": "^1.9.9",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.11.2"
   }
 }
